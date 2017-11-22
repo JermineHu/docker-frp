@@ -583,14 +583,13 @@ plugin_http_passwd = abc
 
 ### If it helps you, buy me a cup of coffee :)
 
-
 #####  AliPay
 
-![donation-alipay](/img/alipay.png)
+![donation-alipay](https://github.com/JermineHu/docker-frp/blob/master/img/alipay.png)
 
 #####  Wechat Pay
 
-![donation-wechatpay](/img/wechat.png)
+![donation-wechatpay](https://github.com/JermineHu/docker-frp/blob/master/img/wechat.png)
 
 #####  Paypal
 
