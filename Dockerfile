@@ -15,6 +15,8 @@ RUN apk add --no-cache --virtual .build-deps make  go=1.9.2-r1 git gcc musl-dev 
 	rm -r /var/cache/apk ; \
 	rm -r /usr/share/man ; \
 	rm -rf /root/go ;\
+    rm /root/bin/frpc ;\
     apk del .build-deps
 WORKDIR /root/bin
 EXPOSE 80 443 6000 7000 7500
+ENTRYPOINT [ "frps" ]
