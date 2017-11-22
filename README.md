@@ -33,7 +33,7 @@ Excute `docker run -d --name=frps -v ~/frp:/etc/frp --restart=always jermine/frp
 
 Excute `docker run -d --name=frpc -v ~/frp:/etc/frp --restart=always jermine/frp frpc -c /etc/frp/frpc.ini` get a frp client.
 
-# More information for frp project
+# [More information for frp project](http://https://github.com/fatedier/frp/blob/master/README.md)
 
 [![Build Status](https://travis-ci.org/fatedier/frp.svg?branch=master)](https://travis-ci.org/fatedier/frp)
 
@@ -579,41 +579,19 @@ plugin_http_passwd = abc
 `plugin_http_user` and `plugin_http_passwd` are configuration parameters used in `http_proxy` plugin.
 
 
-## Development Plan
-
-* Log http request information in frps.
-* Direct reverse proxy, like haproxy.
-* Load balance to different service in frpc.
-* Frpc can directly be a webserver for static files.
-* P2p communicate by make udp hole to penetrate NAT.
-* kubernetes ingress support.
-
-
-## Contributing
-
-Interested in getting involved? We would like to help you!
-
-* Take a look at our [issues list](https://github.com/fatedier/frp/issues) and consider sending a Pull Request to **dev branch**.
-* If you want to add a new feature, please create an issue first to describe the new feature, as well as the implementation approach. Once a proposal is accepted, create an implementation of the new features and submit it as a pull request.
-* Sorry for my poor english and improvement for this document is welcome even some typo fix.
-* If you have some wonderful ideas, send email to fatedier@gmail.com.
-
-**Note: We prefer you to give your advise in [issues](https://github.com/fatedier/frp/issues), so others with a same question can search it quickly and we don't need to answer them repeatly.**
-
 ## Donation
 
-If frp help you a lot, you can support us by:
+### If it helps you, buy me a cup of coffee :)
 
-frp QQ group: 606194980
 
-### AliPay
+#####  AliPay
 
-![donation-alipay](/doc/pic/donate-alipay.png)
+![donation-alipay](/img/alipay.png)
 
-### Wechat Pay
+#####  Wechat Pay
 
-![donation-wechatpay](/doc/pic/donate-wechatpay.png)
+![donation-wechatpay](/img/wechat.png)
 
-### Paypal
+#####  Paypal
 
-Donate money by [paypal](https://www.paypal.me/fatedier) to my account **fatedier@gmail.com**.
+Donate money by [paypal](https://paypal.me/jerminehu) to my account **jermine.hu@qq.com**.
