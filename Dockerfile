@@ -1,5 +1,6 @@
 FROM alpine:edge
 MAINTAINER Jermine <Jermine.hu@qq.com>
+ENV PATH=$PATH:/root/bin
 RUN apk add --no-cache --virtual .build-deps make  go=1.9.2-r1 git gcc musl-dev binutils ;\
      go version ;\
      go env ;\
@@ -15,6 +16,5 @@ RUN apk add --no-cache --virtual .build-deps make  go=1.9.2-r1 git gcc musl-dev 
 	rm -r /usr/share/man ; \
 	rm -rf /root/go ;\
     apk del .build-deps
-
 WORKDIR /root/bin
 EXPOSE 80 443 6000 7000 7500
