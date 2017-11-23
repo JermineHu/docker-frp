@@ -31,7 +31,7 @@ Excute `docker run -d --net=host --name=frps -v ~/frp:/etc/frp --restart=always 
 
 ### 3.For frp client 
 
-Excute `docker run -d --net=host --name=frpc -v ~/frp:/etc/frp --restart=always jermine/frp:c -c /etc/frp/frpc.ini` get a frp client.
+Excute `docker run -d --net=host --name=frpc -v ~/frp:/etc/frp --restart=always jermine/frp:c -c /etc/frp/frpc.ini --reload` get a frp client.
 
 # [More information for frp project](https://github.com/fatedier/frp/blob/master/README.md)
 
