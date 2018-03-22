@@ -589,11 +589,11 @@ plugin_http_passwd = abc
 
 #####  AliPay
 
-![donation-alipay](https://cases.vdo.pub/donation/alipay.png)
+![donation-alipay](https://raw.githubusercontent.com/JermineHu/docker-frp/master/img/alipay.png)
 
 #####  Wechat Pay
 
-![donation-wechatpay](https://cases.vdo.pub/donation/wechat.png)
+![donation-wechatpay](https://raw.githubusercontent.com/JermineHu/docker-frp/master/img/wechat.png)
 
 #####  Paypal
 
