@@ -1,9 +1,10 @@
 FROM golang:alpine
 MAINTAINER Jermine <Jermine.hu@qq.com>
-RUN  go version ;\
+RUN apk  update && apk add libssh2 git ;\
+     go version ;\
      go env ;\
      go get github.com/fatedier/frp ;\
-     cd /root/go/src/github.com/fatedier/frp ;\
+     cd /go/src/github.com/fatedier/frp ;\
 	make ;\
 	ls
 FROM scratch
