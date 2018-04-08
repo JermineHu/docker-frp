@@ -1,6 +1,6 @@
 FROM golang:alpine
 MAINTAINER Jermine <Jermine.hu@qq.com>
-RUN apk  update && apk add libssh2 git ;\
+RUN apk  update && apk add make git ;\
      go version ;\
      go env ;\
      go get github.com/fatedier/frp ;\
