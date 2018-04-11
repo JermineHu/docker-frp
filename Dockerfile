@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang
 MAINTAINER Jermine <Jermine.hu@qq.com>
 RUN apk  update && apk add make git ;\
      go version ;\
