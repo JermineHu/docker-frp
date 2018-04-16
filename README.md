@@ -33,6 +33,10 @@ Excute `docker run -d --name=frps -v ~/frp:/etc/frp --restart=always jermine/frp
 
 Excute `docker run -d --name=frpc -v ~/frp:/etc/frp --restart=always jermine/frp:c -c /etc/frp/frpc.ini` get a frp client.
 
+### 4.For frp Hot-Reload configuration
+
+Execute `docker exec -it frpc frpc reload -c /etc/frp/frpc.ini ` complet config.
+
 # [More information for frp project](https://github.com/fatedier/frp/blob/master/README.md)
 
 [![Build Status](https://travis-ci.org/fatedier/frp.svg?branch=master)](https://travis-ci.org/fatedier/frp)
