@@ -27,11 +27,11 @@ custom_domains = www.yourdomain.com
 
 ### 2.For frp server 
 
-Execute `docker run -d --net=host --name=frps -v ~/frp:/etc/frp --net=host --restart=always jermine/frp:s frps -c /etc/frp/frps.ini` get a frp server.
+Execute `docker run -d --net=host --name=frps -v ~/frp:/etc/frp --net=host --restart=always jermine/frp:s -c /etc/frp/frps.ini` get a frp server.
 
 ### 3.For frp client 
 
-Execute `docker run -d --net=host --name=frpc -v ~/frp:/etc/frp  --net=host --restart=always jermine/frp:c frpc -c /etc/frp/frpc.ini` get a frp client.
+Execute `docker run -d --net=host --name=frpc -v ~/frp:/etc/frp  --net=host --restart=always jermine/frp:c -c /etc/frp/frpc.ini` get a frp client.
 
 ### 4.For frp Hot-Reload configuration
 
