@@ -35,7 +35,7 @@ Execute `docker run -d --net=host --name=frpc -v ~/frp:/etc/frp  --net=host --re
 
 ### 4.For frp Hot-Reload configuration
 
-Execute `docker exec -it frpc frpc --reload -c /etc/frp/frpc.ini ` complet config.
+Execute `docker exec -it frpc frpc reload -c /etc/frp/frpc.ini ` complet config.
 
 # [More information for frp project](https://github.com/fatedier/frp/blob/master/README.md)
 
